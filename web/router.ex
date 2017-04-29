@@ -18,6 +18,7 @@ defmodule Masterful.Router do
 
     get "/", PageController, :index
     resources "/users", UserController
+    resources "/topics", TopicController
   end
 
   # Other scopes may use custom stacks.
